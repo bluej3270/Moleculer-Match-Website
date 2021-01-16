@@ -1,0 +1,92 @@
+.header {
+  background-color: #24b5bf;
+  box-shadow: 0 4px 8px 0 #24b5bf7c, 0 6px 20px 0 #24b5bf7c;
+}
+
+.title {
+  font-size: 50px;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 40px;
+  font-style: italic;
+}
+
+html {
+  background-color: #4a4a4a;
+  padding: 20px;
+}
+
+.cardM {
+  box-shadow: 0 4px 8px 0 #24b5bf7c, 0 6px 20px 0 #24b5bf7c;
+  background-color: #24b5bf;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.cardH {
+  box-shadow: 0 4px 8px 0 #24b5bf7c, 0 6px 20px 0 #24b5bf7c;
+  text-align: center;
+  background-color: #24b5bf;
+  width: 100%;
+  height: 100%;
+}
+
+.cardSub {
+  box-shadow: 0 4px 8px 0 #24b5bf7c, 0 6px 20px 0 #24b5bf7c;
+  text-align: center;
+  background-color: #24b5bf;
+  width: 100%;
+  height: 100%;
+}
+
+.text-box {
+  font-size: 30px;
+  color: #4a4a4a;
+  text-align: left;
+  align-self: center;
+  padding: 10px;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+.gridContainer {
+  display: grid;
+  gap: 20px 20px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto 250px 250px auto;
+}
+
+.headerContainer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.imageContainer {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.mainTextContainer {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.subTextContainer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
